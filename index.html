@@ -1,0 +1,2222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="57x57"
+      href="https://www.ecoports.com/apple-touch-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="114x114"
+      href="https://www.ecoports.com/apple-touch-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="72x72"
+      href='https://www.ecoports.com/apple-touch-icon-72x72.png"'
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="144x144"
+      href="https://www.ecoports.com/apple-touch-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="120x120"
+      href="https://www.ecoports.com/apple-touch-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="152x152"
+      href="https://www.ecoports.com/apple-touch-icon-152x152.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://www.ecoports.com/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://www.ecoports.com/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <meta name="application-name" content="EcoPorts" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta
+      name="msapplication-TileImage"
+      content="https://www.ecoports.com/mstile-144x144.png"
+    />
+    <!-- CSRF Token -->
+    <meta
+      name="csrf-token"
+      content="agGxq6dtZVaTyfhopIiQ0MzOSmH0H4gA5yq00x34"
+    />
+    <title>Network - EcoPort | PSA</title>
+    <meta name="description" content="PSA Network" />
+    <meta property="og:title" content="Network" />
+    <meta property="og:description" content="PSA Network" />
+
+    <meta name="twitter:title" content="Network" />
+    <!-- Google font -->
+    <link
+      href="//fonts.googleapis.com/css?family=Roboto:200,300,400,700,600,800|Roboto+Condensed:300,400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+    <link
+      href="https://www.ecoports.com/frontend/builds/2d4ebfb759f019db18cee5fff9d4ce9717753925542.css"
+      rel="stylesheet"
+    />
+
+    <script type="text/javascript">
+      var APP_URL = "https:\/\/www.ecoports.com";
+    </script>
+    <!-- Scripts -->
+    <script>
+      window.Laravel = {
+        csrfToken: "agGxq6dtZVaTyfhopIiQ0MzOSmH0H4gA5yq00x34",
+      };
+    </script>
+  </head>
+
+  <body>
+    <div class="site-menubar">
+      <div id="site-menubar" style="height: 100vh">
+        <ul class="list-unstyled">
+          <li>
+            <a href="https://www.ecoports.com" class="brand">
+              <img
+                src="https://www.ecoports.com/frontend/img/espo_logo_white.svg"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.ecoports.com" class="brand">
+              <img
+                src="https://www.ecoports.com/frontend/img/ecoports_logo.png"
+              />
+            </a>
+          </li>
+          <li><a href="https://www.ecoports.com/about">ABOUT</a></li>
+          <li class="active">
+            <a href="https://www.ecoports.com/network">NETWORK</a>
+          </li>
+          <li><a href="https://www.ecoports.com/tools">TOOLS</a></li>
+          <li><a href="https://www.ecoports.com/news">NEWS</a></li>
+          <li>
+            <a href="https://www.ecoports.com/publications">PUBLICATIONS</a>
+          </li>
+          <li><a href="https://www.ecoports.com/contact">CONTACT</a></li>
+          <li><a href="https://www.ecoports.com/search">SEARCH</a></li>
+          <li class="auth-links">
+            <a href="https://www.ecoports.com/login">LOGIN</a>
+          </li>
+          <li class="auth-links auth-links-join">
+            <a href="https://www.ecoports.com/register">JOIN NOW</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mobile-menu">
+      <a href="#" id="mobile-menu"><i class="pe-7s-menu"></i></a>
+      <a href="https://www.ecoports.com">
+        <img
+          src="https://www.ecoports.com/frontend/img/ecoports_logo.png"
+          width="40"
+        />
+      </a>
+    </div>
+    <div class="main-content">
+      <div class="main-container">
+        <div class="section-header">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12">
+                <h1>EcoPorts <span>Network</span></h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="map"></div>
+        <div class="section-general">
+          <div class="container-fluid">
+            <div class="row network-filters">
+              <div class="col-md-3">
+                <div class="countries"></div>
+              </div>
+              <div class="col-md-3">
+                <div class="certification"></div>
+              </div>
+              <div class="col-md-3">
+                <div class="search"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <table
+                  id="example"
+                  class="display main-table network-table network-table-grid_"
+                  cellspacing="0"
+                  width="100%"
+                >
+                  <thead>
+                    <tr>
+                      <th></th>
+                      <th>Port / Organization</th>
+                      <th>Country</th>
+                      <th>PERS certified</th>
+                      <th>ISO certified</th>
+                      <th>EMAS certified</th>
+                      <th>website</th>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/default.jpg"
+                        />
+                      </td>
+                      <td>Port of Aberdeen</td>
+                      <td>United Kingdom</td>
+                      <td></td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a
+                          href="https://www.portofaberdeen.co.uk/"
+                          target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>57.1414891266523</td>
+                      <td>-2.068314552306788</td>
+                    </tr>
+
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_3.jpg"
+                        />
+                      </td>
+                      <td>Port of Roenne A/S</td>
+                      <td>Denmark</td>
+                      <td></td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.portofroenne.com/" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>55.09476115930012</td>
+                      <td>14.692916870117188</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_6.jpg"
+                        />
+                      </td>
+                      <td>Port of Thessaloniki</td>
+                      <td>Greece</td>
+                      <td></td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.thpa.gr" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>40.63751648767795</td>
+                      <td>22.920989990234375</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_18.jpg"
+                        />
+                      </td>
+                      <td>Dover Harbour Board</td>
+                      <td>United Kingdom</td>
+                      <td>PERS certified</td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.doverport.co.uk" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>51.126756667920475</td>
+                      <td>1.3311386108398526</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_27.jpg"
+                        />
+                      </td>
+                      <td>DeltaPort GmbH &amp; Co. KG</td>
+                      <td>Germany</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.deltaport.de" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>51.62567530801804</td>
+                      <td>6.603631973266602</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_36.jpg"
+                        />
+                      </td>
+                      <td>Tanger Med Port Authority</td>
+                      <td>Morocco</td>
+                      <td>PERS certified</td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.tmpa.ma" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>35.88774876335593</td>
+                      <td>-5.497370704365565</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_44.jpg"
+                        />
+                      </td>
+                      <td>Brunsbuttel Ports</td>
+                      <td>Germany</td>
+                      <td></td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a
+                          href="https://www.brunsbuettelports.de"
+                          target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>53.89815471532088</td>
+                      <td>9.159927368164071</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_46.jpg"
+                        />
+                      </td>
+                      <td>Ports of Bremen/Bremerhaven</td>
+                      <td>Germany</td>
+                      <td>PERS certified</td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.bremenports.de" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>53.43560284144912</td>
+                      <td>8.60992431640625</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_51.jpg"
+                        />
+                      </td>
+                      <td>NV Port of Harlingen</td>
+                      <td>Netherlands</td>
+                      <td>PERS certified</td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.portofharlingen.nl" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>53.17938107163507</td>
+                      <td>5.4163360595703125</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_56.jpg"
+                        />
+                      </td>
+                      <td>Port of Cork</td>
+                      <td>Ireland</td>
+                      <td>PERS certified</td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.portofcork.ie" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>51.90010294578488</td>
+                      <td>-8.461799621582031</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_61.jpg"
+                        />
+                      </td>
+                      <td>Peterhead Port Authority</td>
+                      <td>United Kingdom</td>
+                      <td>PERS certified</td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <a
+                          href="https://www.peterheadport.co.uk"
+                          target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>57.498012439946066</td>
+                      <td>-1.7913818359375</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_62.jpg"
+                        />
+                      </td>
+                      <td>Groningen Seaports</td>
+                      <td>Netherlands</td>
+                      <td>PERS certified</td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <a
+                          href="https://www.groningen-seaports.com"
+                          target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>53.3305512998611</td>
+                      <td>6.938285827636719</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_63.jpg"
+                        />
+                      </td>
+                      <td>Dublin Port Company</td>
+                      <td>Ireland</td>
+                      <td></td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.dublinport.ie" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>53.343605706568645</td>
+                      <td>-6.22207869309932</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_70.jpg"
+                        />
+                      </td>
+                      <td>IGOUMENITSA PORT AUTHORITY S.A.</td>
+                      <td>Greece</td>
+                      <td>PERS certified</td>
+                      <td>ISO certified</td>
+                      <td>EMAS certified</td>
+                      <td>
+                        <a href="https://www.olig.gr" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>39.48653677891818</td>
+                      <td>20.25620460510254</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_71.jpg"
+                        />
+                      </td>
+                      <td>Shannon Foynes Port Company</td>
+                      <td>Ireland</td>
+                      <td>PERS certified</td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.sfpc.ie" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>52.61377018301813</td>
+                      <td>-9.103469848632804</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_72.jpg"
+                        />
+                      </td>
+                      <td>Port of Moerdijk</td>
+                      <td>Netherlands</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.portofmoerdijk.nl" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>51.692741573026815</td>
+                      <td>4.585590716451415</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_75.jpg"
+                        />
+                      </td>
+                      <td>Milford Haven Port Authority</td>
+                      <td>United Kingdom</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.mhpa.co.uk" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>51.70914676061924</td>
+                      <td>-5.030803680419922</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_77.jpg"
+                        />
+                      </td>
+                      <td>Autoridad Portuaria de Valencia</td>
+                      <td>Spain</td>
+                      <td>PERS certified</td>
+                      <td>ISO certified</td>
+                      <td>EMAS certified</td>
+                      <td>
+                        <a href="https://www.valenciaport.com" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>39.461492834386114</td>
+                      <td>-0.33294677734375</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/default.jpg"
+                        />
+                      </td>
+                      <td>Autoridad Portuaria de Castellón</td>
+                      <td>Spain</td>
+                      <td>PERS certified</td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.portcastello.com/" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>39.972234644661576</td>
+                      <td>0.0179290771484375</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_91.jpg"
+                        />
+                      </td>
+                      <td>Nantes - Saint Nazaire Port Authority</td>
+                      <td>France</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <a href="https://nantes.port.fr" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>47.197045226650204</td>
+                      <td>-2.0166015625</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_92.jpg"
+                        />
+                      </td>
+                      <td>A Coruña Port Authority</td>
+                      <td>Spain</td>
+                      <td></td>
+                      <td></td>
+                      <td>EMAS certified</td>
+                      <td>
+                        <a href="https://www.puertocoruna.com" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>43.35499915134651</td>
+                      <td>-8.42987060546875</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_93.jpg"
+                        />
+                      </td>
+                      <td>Ports of Stockholm</td>
+                      <td>Sweden</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <a
+                          href="https://www.portsofstockholm.com/"
+                          target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>59.34359480191347</td>
+                      <td>18.117218017578125</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_94.jpg"
+                        />
+                      </td>
+                      <td>Shoreham Port Authority</td>
+                      <td>United Kingdom</td>
+                      <td>PERS certified</td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <a
+                          href="https://www.shoreham-port.co.uk"
+                          target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>50.83444163151928</td>
+                      <td>-0.28316497802734375</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_104.jpg"
+                        />
+                      </td>
+                      <td>Volos Port Authority S.A.</td>
+                      <td>Greece</td>
+                      <td>PERS certified</td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.port-volos.gr" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>39.35485596852254</td>
+                      <td>22.935409545898438</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_109.jpg"
+                        />
+                      </td>
+                      <td>APSS</td>
+                      <td>Portugal</td>
+                      <td></td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.portodesetubal.pt" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>38.48031680995871</td>
+                      <td>-8.922882080078125</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_119.jpg"
+                        />
+                      </td>
+                      <td>Port of Barcelona</td>
+                      <td>Spain</td>
+                      <td>PERS certified</td>
+                      <td>ISO certified</td>
+                      <td>EMAS certified</td>
+                      <td>
+                        <a
+                          href="https://www.portdebarcelona.cat"
+                          target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>41.371201774215905</td>
+                      <td>2.182219634996727</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_121.jpg"
+                        />
+                      </td>
+                      <td>Aqaba Container Terminal</td>
+                      <td>Jordan</td>
+                      <td></td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.act.com.jo" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>29.469509013548695</td>
+                      <td>34.97760534286499</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_122.jpg"
+                        />
+                      </td>
+                      <td>Port of Aalborg</td>
+                      <td>Denmark</td>
+                      <td></td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.portofaalborg.com" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>57.0475805751977</td>
+                      <td>10.049734115600586</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_127.jpg"
+                        />
+                      </td>
+                      <td>Port of Esbjerg</td>
+                      <td>Denmark</td>
+                      <td></td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.portesbjerg.dk" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>55.4640503617902</td>
+                      <td>8.44736099243164</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_129.jpg"
+                        />
+                      </td>
+                      <td>Port of Turku Ltd</td>
+                      <td>Finland</td>
+                      <td></td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.portofturku.fi" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>60.43578472016231</td>
+                      <td>22.212371826171875</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_131.jpg"
+                        />
+                      </td>
+                      <td>Port of Tallinn</td>
+                      <td>Estonia</td>
+                      <td></td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.ts.ee/en/" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>59.422628134374726</td>
+                      <td>24.76806640625</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_132.jpg"
+                        />
+                      </td>
+                      <td>Port of Helsinki</td>
+                      <td>Finland</td>
+                      <td></td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.portofhelsinki.fi/" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>60.14140748583488</td>
+                      <td>24.89990234375</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/default.jpg"
+                        />
+                      </td>
+                      <td>Port of Rotterdam Authority</td>
+                      <td>Netherlands</td>
+                      <td>PERS certified</td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <a
+                          href="https://www.portofrotterdam.com"
+                          target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>51.87637037942949</td>
+                      <td>4.290924072265625</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_137.jpg"
+                        />
+                      </td>
+                      <td>Klaipėda / Authority</td>
+                      <td>Lithuania</td>
+                      <td>PERS certified</td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.portofklaipeda.lt" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>55.70843526021025</td>
+                      <td>21.10687255859375</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_139.jpg"
+                        />
+                      </td>
+                      <td>PORT ATLANTIQUE LA ROCHELLE</td>
+                      <td>France</td>
+                      <td></td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.larochelle.port.fr" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>46.15306448701178</td>
+                      <td>-1.18438720703125</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/default.jpg"
+                        />
+                      </td>
+                      <td>Santander Port Authority</td>
+                      <td>Spain</td>
+                      <td>PERS certified</td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a
+                          href="https://www.puertosantander.com"
+                          target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>43.44180988079467</td>
+                      <td>-3.819732666015625</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_141.jpg"
+                        />
+                      </td>
+                      <td>Port of Ystad</td>
+                      <td>Sweden</td>
+                      <td></td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.port.ystad.se" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>55.42188879225546</td>
+                      <td>13.818817138671875</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_146.jpg"
+                        />
+                      </td>
+                      <td>Port of Vigo</td>
+                      <td>Spain</td>
+                      <td>PERS certified</td>
+                      <td>ISO certified</td>
+                      <td>EMAS certified</td>
+                      <td>
+                        <a href="https://www.apvigo.com" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>42.2329485264882</td>
+                      <td>-8.724441528320312</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_150.jpg"
+                        />
+                      </td>
+                      <td>Riga</td>
+                      <td>Latvia</td>
+                      <td></td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.rop.lv" target="_blank">website</a>
+                      </td>
+                      <td>57.0142778604894</td>
+                      <td>24.090518951416023</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_152.jpg"
+                        />
+                      </td>
+                      <td>Foyle Port</td>
+                      <td>United Kingdom</td>
+                      <td></td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.foyleport.com" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>55.040822075725984</td>
+                      <td>-7.263517379760742</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/default.jpg"
+                        />
+                      </td>
+                      <td>Port of Cartagena</td>
+                      <td>Spain</td>
+                      <td></td>
+                      <td>ISO certified</td>
+                      <td>EMAS certified</td>
+                      <td>
+                        <a href="https://www.apc.es" target="_blank">website</a>
+                      </td>
+                      <td>37.587691925005814</td>
+                      <td>-0.9814834594726562</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/default.jpg"
+                        />
+                      </td>
+                      <td>Port of Constanta</td>
+                      <td>Romania</td>
+                      <td></td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a
+                          href="https://www.portofconstantza.com"
+                          target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>43.94325417006035</td>
+                      <td>28.6187744140625</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_160.jpg"
+                        />
+                      </td>
+                      <td>Port of Kristiansand</td>
+                      <td>Norway</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <a
+                          href="https://www.kristiansandhavn.no"
+                          target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>58.134005400647254</td>
+                      <td>7.987827486328115</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_164.jpg"
+                        />
+                      </td>
+                      <td>ASYAPORT LIMAN A.Ş.</td>
+                      <td>Turkey</td>
+                      <td>PERS certified</td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.asyaport.com" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>40.902921305231345</td>
+                      <td>27.467398643493652</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_167.jpg"
+                        />
+                      </td>
+                      <td>Port of Den Helder</td>
+                      <td>Netherlands</td>
+                      <td>PERS certified</td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.podh.eu" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>52.953898295430385</td>
+                      <td>4.78118896484375</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_169.jpg"
+                        />
+                      </td>
+                      <td>Salcombe harbour</td>
+                      <td>United Kingdom</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <a
+                          href="https://www.salcombeharbour.co.uk"
+                          target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>50.238077695883646</td>
+                      <td>-3.7628698348999023</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/default.jpg"
+                        />
+                      </td>
+                      <td>
+                        Exploitatiemaatschappij Havencomplex Lauwersoog BV.
+                        (EHL)
+                      </td>
+                      <td>Netherlands</td>
+                      <td>PERS certified</td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <a
+                          href="https://www.havenlauwersoog.nl/en/"
+                          target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>53.40873750010042</td>
+                      <td>6.198897361755371</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/default.jpg"
+                        />
+                      </td>
+                      <td>Authority Port of Algeciras Bay</td>
+                      <td>Spain</td>
+                      <td>PERS certified</td>
+                      <td>ISO certified</td>
+                      <td>EMAS certified</td>
+                      <td>
+                        <a href="https://www.apba.es" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>36.123020381765</td>
+                      <td>-5.440731048583984</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/default.jpg"
+                        />
+                      </td>
+                      <td>port of Den Oever-Hollands Kroon</td>
+                      <td>Netherlands</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.hollandskroon.nl" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>52.9383309843432</td>
+                      <td>5.033745765686035</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/default.jpg"
+                        />
+                      </td>
+                      <td>LAS PALMAS PORT</td>
+                      <td>Spain</td>
+                      <td></td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.palmasport.es" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>28.134799681670295</td>
+                      <td>-15.4254150390625</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_180.jpg"
+                        />
+                      </td>
+                      <td>Port of Malmö</td>
+                      <td>Sweden</td>
+                      <td></td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.cmport.com" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>55.61935630987872</td>
+                      <td>13.018875122070312</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_183.jpg"
+                        />
+                      </td>
+                      <td>Port of Bergen</td>
+                      <td>Norway</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <a href="https://bergenhavn.no" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>60.392263443484715</td>
+                      <td>5.311107635498047</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_186.jpg"
+                        />
+                      </td>
+                      <td>PORT AUTHORITY OF HUELVA</td>
+                      <td>Spain</td>
+                      <td>PERS certified</td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.puertohuelva.com/" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>37.22306523090863</td>
+                      <td>-6.947746276855469</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_187.jpg"
+                        />
+                      </td>
+                      <td>
+                        Niedersachsen Ports GmbH &amp; Co. KG, Wilhelmshaven
+                        Branch
+                      </td>
+                      <td>Germany</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.nports.de/" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>53.51569680418736</td>
+                      <td>8.124330637510866</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_188.jpg"
+                        />
+                      </td>
+                      <td>MARPORT TERMINAL OPERATORS</td>
+                      <td>Turkey</td>
+                      <td></td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.marport.com.tr" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>40.965234447917496</td>
+                      <td>28.675079345703125</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_189.jpg"
+                        />
+                      </td>
+                      <td>AUTORIDAD PORTUARIA DE MELILLA</td>
+                      <td>Spain</td>
+                      <td>PERS certified</td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.puertodemelilla.es" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>35.2900288950774</td>
+                      <td>-2.927093505859375</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_191.jpg"
+                        />
+                      </td>
+                      <td>Grand Port Maritime de Dunkerque</td>
+                      <td>France</td>
+                      <td>PERS certified</td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.dunkerque-port.fr/" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>51.04774666045116</td>
+                      <td>2.3607635498046875</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/default.jpg"
+                        />
+                      </td>
+                      <td>
+                        Niedersachsen Ports GmbH &amp; Co. KG, Emden Branch
+                      </td>
+                      <td>Germany</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.nports.de/" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>53.363868714404326</td>
+                      <td>7.2086310386657715</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/default.jpg"
+                        />
+                      </td>
+                      <td>Port of Rauma Ltd</td>
+                      <td>Finland</td>
+                      <td></td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.portofrauma.com/en" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>61.12490921400338</td>
+                      <td>21.441268920898438</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/default.jpg"
+                        />
+                      </td>
+                      <td>APS - Port of Sines</td>
+                      <td>Portugal</td>
+                      <td></td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.apsinesalgarve.pt/" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>37.95372207345276</td>
+                      <td>-8.882927894591944</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/default.jpg"
+                        />
+                      </td>
+                      <td>
+                        Southern Adriatic Sea Port Authority (ports of Bari,
+                        Brindisi, Manfredonia, Barletta and Monopoli)
+                      </td>
+                      <td>Italy</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.adspmam.it" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>41.085350056524966</td>
+                      <td>16.876578330993993</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/default.jpg"
+                        />
+                      </td>
+                      <td>Port of Oulu</td>
+                      <td>Finland</td>
+                      <td></td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.ouluport.com" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>64.99764623603502</td>
+                      <td>25.405402183533056</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/default.jpg"
+                        />
+                      </td>
+                      <td>HERAKLION PORT AUTHORITY SA</td>
+                      <td>Greece</td>
+                      <td>PERS certified</td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a href="https://WWW.PORTHERAKLION.GR" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>35.37762434474224</td>
+                      <td>25.27013301849398</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/default.jpg"
+                        />
+                      </td>
+                      <td>
+                        Niedersachsen Ports GmbH &amp; Co. KG, Cuxhaven Branch
+                      </td>
+                      <td>Germany</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.nports.de/" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>53.86459214059097</td>
+                      <td>8.700963854790075</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/default.jpg"
+                        />
+                      </td>
+                      <td>
+                        Niedersachsen Ports GmbH &amp; Co. KG, Brake Branch
+                      </td>
+                      <td>Germany</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.nports.de/" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>53.332901457536266</td>
+                      <td>8.485479876399381</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/default.jpg"
+                        />
+                      </td>
+                      <td>LINARIA PORT</td>
+                      <td>Greece</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.linariaport.gr" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>38.8422295756942</td>
+                      <td>24.53662395477329</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/default.jpg"
+                        />
+                      </td>
+                      <td>Durres Authority Authority</td>
+                      <td>Albania</td>
+                      <td></td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.durresport.al" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>41.2342343113084</td>
+                      <td>19.46935176849398</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/default.jpg"
+                        />
+                      </td>
+                      <td>Port of Pori Ltd</td>
+                      <td>Finland</td>
+                      <td>PERS certified</td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.portofpori.fi" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>61.5921221820203</td>
+                      <td>21.493539810181005</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/port_237.jpg"
+                        />
+                      </td>
+                      <td>Baku International Sea Trade Port CJSC</td>
+                      <td>Azerbaijan</td>
+                      <td>PERS certified</td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a href="https://portofbaku.com/" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>39.978006317518094</td>
+                      <td>49.443531036377294</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/default.jpg"
+                        />
+                      </td>
+                      <td>CEUTA/AUTORIDAD PORTUARIA DE CEUTA</td>
+                      <td>Spain</td>
+                      <td>PERS certified</td>
+                      <td>ISO certified</td>
+                      <td>EMAS certified</td>
+                      <td>
+                        <a href="https://www.puertodeceuta.com" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>35.89193723796282</td>
+                      <td>-5.310311317443507</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/default.jpg"
+                        />
+                      </td>
+                      <td>North Sea Port SE</td>
+                      <td>Belgium</td>
+                      <td>PERS certified</td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.northseaport.com" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>51.10664295125562</td>
+                      <td>3.7498045465330154</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/default.jpg"
+                        />
+                      </td>
+                      <td>Niedersachsen Ports GmbH &amp; Co. KG</td>
+                      <td>Germany</td>
+                      <td>PERS certified</td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.nports.de/" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>53.13798620494184</td>
+                      <td>8.204030990600927</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/default.jpg"
+                        />
+                      </td>
+                      <td>
+                        Niedersachsen Ports GmbH &amp; Co. KG, Norden Branch
+                      </td>
+                      <td>Germany</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.nports.de/" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>53.58917617561677</td>
+                      <td>7.215824723244054</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/default.jpg"
+                        />
+                      </td>
+                      <td>Montrose Port Authority</td>
+                      <td>United Kingdom</td>
+                      <td></td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.montroseport.co.uk" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>56.70359737812878</td>
+                      <td>-2.468972206115394</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/default.jpg"
+                        />
+                      </td>
+                      <td>Izmail Sea Port Authority</td>
+                      <td>Ukraine</td>
+                      <td></td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a href="https://uspa.gov.ua/izm/" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>45.33022921887748</td>
+                      <td>28.830389976501806</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/default.jpg"
+                        />
+                      </td>
+                      <td>Odesa Sea Port Authopity</td>
+                      <td>Ukraine</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <a href="https://uspa.gov.ua/ods/" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>46.48525779701943</td>
+                      <td>30.748383998871176</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/default.jpg"
+                        />
+                      </td>
+                      <td>Harwich Haven Authority</td>
+                      <td>United Kingdom</td>
+                      <td></td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a href="https://hha.co.uk/" target="_blank">website</a>
+                      </td>
+                      <td>51.94795372414706</td>
+                      <td>1.2866353988650871</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/default.jpg"
+                        />
+                      </td>
+                      <td>Autoridad Portuaria de Sevilla</td>
+                      <td>Spain</td>
+                      <td>PERS certified</td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a
+                          href="https://www.puertodesevilla.com/"
+                          target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>37.35465257754483</td>
+                      <td>-5.990433692931788</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/default.jpg"
+                        />
+                      </td>
+                      <td>Port of aarhus</td>
+                      <td>Denmark</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.aarhushavn.dk/" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>56.146731669847654</td>
+                      <td>10.239806175232262</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/default.jpg"
+                        />
+                      </td>
+                      <td>
+                        Bulgarian Ports Infrastructure Company - Port of Burgas
+                      </td>
+                      <td>Bulgaria</td>
+                      <td></td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a href="https://bgports.bg/en" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>42.48923390913988</td>
+                      <td>27.46533870697054</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/default.jpg"
+                        />
+                      </td>
+                      <td>
+                        Bulgarian Ports Infrastructure Company - Port of Varna
+                      </td>
+                      <td>Bulgaria</td>
+                      <td></td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.bgports.bg" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>43.19704052624166</td>
+                      <td>27.91479110717806</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/default.jpg"
+                        />
+                      </td>
+                      <td>Port of Oslo</td>
+                      <td>Norway</td>
+                      <td>PERS certified</td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.oslohavn.no" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>59.88776239765515</td>
+                      <td>10.753931999206872</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/default.jpg"
+                        />
+                      </td>
+                      <td>Port of Waterford</td>
+                      <td>Ireland</td>
+                      <td>PERS certified</td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a href="https://portofwaterford.com/" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>52.2637830530041</td>
+                      <td>-7.036194801330238</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/default.jpg"
+                        />
+                      </td>
+                      <td>Transport Malta</td>
+                      <td>Malta</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <a
+                          href="https://www.transport.gov.mt/maritime-40"
+                          target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>35.850985538928846</td>
+                      <td>14.470572471618981</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/default.jpg"
+                        />
+                      </td>
+                      <td>Port of Cromarty Firth</td>
+                      <td>United Kingdom</td>
+                      <td></td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.cfpa.co.uk" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>57.68675861061625</td>
+                      <td>-4.167068004607826</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/default.jpg"
+                        />
+                      </td>
+                      <td>Ports of Jersey</td>
+                      <td>United Kingdom</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.ports.je" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>49.176694379026316</td>
+                      <td>-2.114491462707191</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/default.jpg"
+                        />
+                      </td>
+                      <td>PORT AUTHORITY OF BILBAO</td>
+                      <td>Spain</td>
+                      <td></td>
+                      <td>ISO certified</td>
+                      <td>EMAS certified</td>
+                      <td>
+                        <a href="https://www.bilbaoport.eus" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>43.342838566608364</td>
+                      <td>-3.0504114406843197</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/default.jpg"
+                        />
+                      </td>
+                      <td>Santa Cruz de Tenerife Port Authority</td>
+                      <td>Spain</td>
+                      <td>PERS certified</td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a
+                          href="https://www.puertosdetenerife.org/"
+                          target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>28.4859475506624</td>
+                      <td>-16.23346805572479</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/default.jpg"
+                        />
+                      </td>
+                      <td>Port of Naantali Ltd.</td>
+                      <td>Finland</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <a href="https://www.portofnaantali.fi" target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>60.457925571756626</td>
+                      <td>22.043800354004233</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/default.jpg"
+                        />
+                      </td>
+                      <td>Port of Helsingborg</td>
+                      <td>Sweden</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <a
+                          href="https://www.port.helsingborg.se"
+                          target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>56.03041704325898</td>
+                      <td>12.693877220154137</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://www.ecoports.com/photos/ports/default.jpg"
+                        />
+                      </td>
+                      <td>Port Network Authority of the Ionian Sea</td>
+                      <td>Italy</td>
+                      <td></td>
+                      <td>ISO certified</td>
+                      <td></td>
+                      <td>
+                        <a
+                          href="https://port.taranto.it/index.php/it/"
+                          target="_blank"
+                          >website</a
+                        >
+                      </td>
+                      <td>40.47925356443345</td>
+                      <td>17.21938610076937</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-8">
+              <ul class="list-unstyled">
+                <li><strong>EcoPorts &copy;2024</strong></li>
+                <li><a href="https://www.ecoports.com/about">About</a></li>
+                <li><a href="https://www.ecoports.com/network">Network</a></li>
+                <li><a href="https://www.ecoports.com/tools">Tools</a></li>
+                <li><a href="https://www.ecoports.com/news">News</a></li>
+                <li>
+                  <a href="https://www.ecoports.com/publications"
+                    >Publications</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.ecoports.com/privacy">Privacy Policy</a>
+                </li>
+                <li><a href="https://www.ecoports.com/contact">Contact</a></li>
+                <li class="auth-links">
+                  <a href="https://www.ecoports.com/login">Login</a>
+                </li>
+                <li class="auth-links auth-links-join">
+                  <a href="https://www.ecoports.com/register"
+                    ><strong>Join Now</strong></a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-4 footer-logos text-right">
+              <a href="https://www.espo.be" target="_blank"
+                ><img src="https://www.ecoports.com/frontend/img/espo_grey.png"
+              /></a>
+              <a href="https://www.ecoports.com"
+                ><img
+                  src="https://www.ecoports.com/frontend/img/ecoports_grey.png"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://www.ecoports.com/frontend/builds/64c57ae6fa853a5c9868d892205ff15212854097666.js"></script>
+
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "https://www.google-analytics.com/analytics.js",
+        "ga"
+      );
+
+      ga("create", "UA-99047132-1", "auto");
+      ga("send", "pageview");
+    </script>
+
+    <script>
+      function initMap() {
+        var markersArray = [];
+        var map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 4,
+          center: { lat: 45.363, lng: 21.044 },
+        });
+        var infowindow;
+        var marker;
+        var contentString;
+        var oTable = $("#example").DataTable({
+          initComplete: function () {
+            $(".dataTables_filter").appendTo($(".network-filters .search"));
+            var column = this.api().column(2);
+            var select = $(
+              '<select><option value="">All countries</option></select>'
+            )
+              .appendTo($(".countries").empty())
+              .on("change", function () {
+                var val = $.fn.dataTable.util.escapeRegex($(this).val());
+
+                column.search(val ? "^" + val + "$" : "", true, false).draw();
+              });
+
+            column
+              .data()
+              .unique()
+              .sort()
+              .each(function (d, j) {
+                select.append('<option value="' + d + '">' + d + "</option>");
+              });
+            var mtable = this;
+            var persColumn = this.api().column(3);
+            var isoColumn = this.api().column(4);
+            var emasColumn = this.api().column(5);
+            var select = $(
+              '<select><option value="">All certificates</option></select>'
+            )
+              .appendTo($(".certification").empty())
+              .on("change", function () {
+                var val = $.fn.dataTable.util.escapeRegex($(this).val());
+                if (val == "PERS certified") {
+                  isoColumn.search("", true, false);
+                  emasColumn.search("", true, false);
+                  persColumn
+                    .search(val ? "^" + val + "$" : "", true, false)
+                    .draw();
+                } else if (val == "ISO certified") {
+                  persColumn.search("", true, false);
+                  emasColumn.search("", true, false);
+                  isoColumn
+                    .search(val ? "^" + val + "$" : "", true, false)
+                    .draw();
+                } else if (val == "EMAS certified") {
+                  persColumn.search("", true, false);
+                  isoColumn.search("", true, false);
+                  emasColumn
+                    .search(val ? "^" + val + "$" : "", true, false)
+                    .draw();
+                } else {
+                  persColumn.search("", true, false);
+                  isoColumn.search("", true, false);
+                  emasColumn.search("", true, false);
+                  mtable.api().draw();
+                }
+              });
+
+            select.append(
+              '<option value="PERS certified">PERS certified</option>'
+            );
+            select.append(
+              '<option value="ISO certified">ISO certified</option>'
+            );
+            select.append(
+              '<option value="EMAS certified">EMAS certified</option>'
+            );
+          },
+          drawCallback: function (settings) {
+            var api = this.api();
+            deleteOverlays();
+            infowindow = new google.maps.InfoWindow({
+              content: "",
+            });
+
+            api
+              .rows({ filter: "applied" })
+              .every(function (rowIdx, tableLoop, rowLoop) {
+                var data = this.data();
+
+                var contentString =
+                  '<div class="infowindow" >' +
+                  data[0] +
+                  "<h4>" +
+                  data[1] +
+                  "</h4>" +
+                  "<h5>" +
+                  data[2] +
+                  "</h5>" +
+                  "<p>" +
+                  data[3] +
+                  " " +
+                  data[4] +
+                  " " +
+                  data[5] +
+                  "</p>" +
+                  "<p>" +
+                  data[6] +
+                  "</p>" +
+                  "</div>";
+
+                var uluru1 = {
+                  lat: parseFloat(data[7]),
+                  lng: parseFloat(data[8]),
+                };
+                var marker = new google.maps.Marker({
+                  position: uluru1,
+                  map: map,
+                  icon: APP_URL + "/frontend/img/marker.png",
+                });
+
+                google.maps.event.addListener(marker, "click", function () {
+                  if (infowindow) {
+                    infowindow.close();
+                  }
+                  infowindow.setContent(contentString);
+                  infowindow.open(map, marker);
+                });
+                markersArray.push(marker);
+              });
+          },
+          language: {
+            search: "",
+            searchPlaceholder: "Search...",
+            paginate: {
+              previous: "‹",
+              next: "›",
+            },
+            aria: {
+              paginate: {
+                previous: "Previous",
+                next: "Next",
+              },
+            },
+          },
+          columnDefs: [
+            { visible: false, targets: 7 },
+            { visible: false, targets: 8 },
+            { orderable: false, targets: 6 },
+          ],
+          dom: '<"top"if<"clear">><"main-table-responsive"rt><"bottom"p<"clear">>',
+        });
+
+        google.maps.event.addListener(map, "click", function (event) {
+          infowindow.close();
+        });
+
+        function deleteOverlays() {
+          if (markersArray) {
+            for (i in markersArray) {
+              markersArray[i].setMap(null);
+            }
+            markersArray.length = 0;
+          }
+        }
+      }
+    </script>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1XEgjrCyeyC4OIXrsjgkY3GaVbQdG_IU&callback=initMap"
+    ></script>
+  </body>
+</html>
