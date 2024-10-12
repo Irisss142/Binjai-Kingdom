@@ -16,22 +16,16 @@ The **Port Emissions and Energy Management System** is a real-time monitoring an
 
 ## Table of Contents
 - [Features](#features)
-- [Tech Stack](#tech-stack)
 - [Installation](#installation)
 - [Backend Setup](#backend-setup)
 - [Frontend Setup](#frontend-setup)
 - [AI Model](#ai-model)
 - [Deployment](#deployment)
 - [Usage](#usage)
+- [Tech Stack](#tech-stack)
 
 ---
 
-## Tech Stack
-### Backend
-- **Python 3.9+** (Flask or FastAPI)
-- **PostgreSQL** or **MongoDB** (for time-series data)
-- **Redis** (for real-time data aggregation)
-- **Celery** (for background tasks)
 
 ### Frontend
 - **React** (for building the dashboard)
@@ -157,5 +151,13 @@ For cloud deployment, use Kubernetes or Google Cloud Run. Follow the instruction
 ### AI Recommendations
 - Access energy-saving recommendations in the dashboard.
 - Apply suggestions to reduce energy consumption during peak operational hours.
+
+## Tech Stack
+### Backend
+- **Python 3.9+** (Flask or FastAPI)
+- **PostgreSQL** (for time-series data)
+- **Redis** (for real-time data aggregation)
+- **Celery** (for background tasks)
+
 
 
