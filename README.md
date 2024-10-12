@@ -10,6 +10,10 @@ The **Port Emissions and Energy Management System** is a real-time monitoring an
 - **Node.js 14+**
 - **Docker** (for local containerization)
 - **PostgreSQL** (for database setup)
+- **Kubernetes Engine API**
+- **Google Container Registry API**
+- **Google Cloud SDK**
+- **Kubectl**
 
 ### Clone the Repository
 ```bash
