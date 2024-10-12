@@ -1,7 +1,9 @@
 # EcoPort
+
 <div align="center">
 	<img src="[https://i.imgur.com/8BgVXcY.png"](https://github.com/user-attachments/assets/40189a0a-52cf-40ed-ae5d-ac906f9d489a")>
 </div>
+
 ### Overview
 The **Port Emissions and Energy Management System** is a real-time monitoring and AI-driven solution designed to optimize energy consumption and reduce carbon emissions in port operations. By integrating IoT sensors, machine learning models, and an interactive dashboard, this system provides actionable insights into energy usage and recommends strategies to reduce environmental impact while maintaining operational efficiency.
 
