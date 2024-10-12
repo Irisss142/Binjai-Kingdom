@@ -3,26 +3,12 @@
 ### Overview
 The **Port Emissions and Energy Management System** is a real-time monitoring and AI-driven solution designed to optimize energy consumption and reduce carbon emissions in port operations. By integrating IoT sensors, machine learning models, and an interactive dashboard, this system provides actionable insights into energy usage and recommends strategies to reduce environmental impact while maintaining operational efficiency.
 
----
-## Table of Contents
-- [Features](#features)
-- [Installation](#installation)
-- [Backend Setup](#backend-setup)
-- [Frontend Setup](#frontend-setup)
-- [AI Model](#ai-model)
-- [Deployment](#deployment)
-- [Usage](#usage)
-- [Tech Stack](#tech-stack)
-
----
 ## Features
 - **Real-time Energy and Emissions Monitoring:** Track energy consumption and emissions across port machinery and operations.
 - **Energy Efficiency Recommendations:** AI-based suggestions for reducing energy usage and optimizing machinery schedules.
 - **Carbon Emissions Forecasting:** Predict future emissions based on operational data and external factors.
 - **Interactive Dashboard:** Visualize real-time energy usage, emissions, and system-generated recommendations.
 - **Cloud-Ready Deployment:** Scalable infrastructure designed for cloud deployment on Google Cloud Platform (GCP).
-
----
 
 ### Frontend
 - **React** (for building the dashboard)
@@ -37,8 +23,6 @@ The **Port Emissions and Energy Management System** is a real-time monitoring an
 - **Docker** (for containerization)
 - **Google Cloud Platform (GCP)** (for deployment)
 - **Kubernetes** (for cloud hosting)
-
----
 
 ## Installation
 
@@ -61,7 +45,6 @@ DATABASE_URL=your_database_url
 SECRET_KEY=your_secret_key
 ```
 
----
 
 ## Backend Setup
 
@@ -84,7 +67,7 @@ python api/app.py
 ```
 The API should now be running at `http://localhost:5000`.
 
----
+
 
 ## Frontend Setup
 
