@@ -9,7 +9,7 @@ The **Port Emissions and Energy Management System** is a real-time monitoring an
 - **Python 3.9+**
 - **Node.js 14+**
 - **Docker** (for local containerization)
-- **PostgreSQL** or **MongoDB** (for database setup)
+- **PostgreSQL** (for database setup)
 
 ### Clone the Repository
 ```bash
@@ -136,7 +136,7 @@ For cloud deployment, use Kubernetes or Google Cloud Run. Follow the instruction
 
 
 
-### **Tech Stack**
+## **Tech Stack**
 
 #### **Backend**
 - **Python 3.9+**: Programming language.
