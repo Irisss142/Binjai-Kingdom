@@ -99,28 +99,6 @@ For cloud deployment, use Kubernetes or Google Cloud Run. Follow the instruction
 - **Google Cloud Run:** Use the `cloud_run_deploy.sh` script for Google Cloud deployment.
 
 
-### Features
-- **Real-time Energy and Emissions Monitoring:** Track energy consumption and emissions across port machinery and operations.
-- **Energy Efficiency Recommendations:** AI-based suggestions for reducing energy usage and optimizing machinery schedules.
-- **Carbon Emissions Forecasting:** Predict future emissions based on operational data and external factors.
-- **Interactive Dashboard:** Visualize real-time energy usage, emissions, and system-generated recommendations.
-- **Cloud-Ready Deployment:** Scalable infrastructure designed for cloud deployment on Google Cloud Platform (GCP).
-
-### Frontend
-- **React** (for building the dashboard)
-- **Plotly** and **D3.js** (for data visualization)
-- **Material UI** and **Tailwind CSS** (for frontend styling)
-
-### AI Model
-- **TensorFlow** and **PyTorch** (for energy forecasting)
-- **Pandas**, **Scikit-learn**, **NumPy** (for data preprocessing and analysis)
-
-### Infrastructure
-- **Docker** (for containerization)
-- **Google Cloud Platform (GCP)** (for deployment)
-- **Kubernetes** (for cloud hosting)
-
-
 
 ## Usage
 
