@@ -4,16 +4,6 @@
 The **Port Emissions and Energy Management System** is a real-time monitoring and AI-driven solution designed to optimize energy consumption and reduce carbon emissions in port operations. By integrating IoT sensors, machine learning models, and an interactive dashboard, this system provides actionable insights into energy usage and recommends strategies to reduce environmental impact while maintaining operational efficiency.
 
 ---
-
-## Features
-- **Real-time Energy and Emissions Monitoring:** Track energy consumption and emissions across port machinery and operations.
-- **Energy Efficiency Recommendations:** AI-based suggestions for reducing energy usage and optimizing machinery schedules.
-- **Carbon Emissions Forecasting:** Predict future emissions based on operational data and external factors.
-- **Interactive Dashboard:** Visualize real-time energy usage, emissions, and system-generated recommendations.
-- **Cloud-Ready Deployment:** Scalable infrastructure designed for cloud deployment on platforms like Google Cloud or AWS.
-
----
-
 ## Table of Contents
 - [Features](#features)
 - [Installation](#installation)
@@ -25,21 +15,28 @@ The **Port Emissions and Energy Management System** is a real-time monitoring an
 - [Tech Stack](#tech-stack)
 
 ---
+## Features
+- **Real-time Energy and Emissions Monitoring:** Track energy consumption and emissions across port machinery and operations.
+- **Energy Efficiency Recommendations:** AI-based suggestions for reducing energy usage and optimizing machinery schedules.
+- **Carbon Emissions Forecasting:** Predict future emissions based on operational data and external factors.
+- **Interactive Dashboard:** Visualize real-time energy usage, emissions, and system-generated recommendations.
+- **Cloud-Ready Deployment:** Scalable infrastructure designed for cloud deployment on Google Cloud Platform (GCP).
 
+---
 
 ### Frontend
 - **React** (for building the dashboard)
-- **Plotly** or **D3.js** (for data visualization)
-- **Material UI** or **Tailwind CSS** (for frontend styling)
+- **Plotly** and **D3.js** (for data visualization)
+- **Material UI** and **Tailwind CSS** (for frontend styling)
 
 ### AI Model
-- **TensorFlow** or **PyTorch** (for energy forecasting)
+- **TensorFlow** and **PyTorch** (for energy forecasting)
 - **Pandas**, **Scikit-learn**, **NumPy** (for data preprocessing and analysis)
 
 ### Infrastructure
 - **Docker** (for containerization)
-- **Google Cloud Platform (GCP)** or **AWS** (for deployment)
-- **Kubernetes** or **Google Cloud Run** (for cloud hosting)
+- **Google Cloud Platform (GCP)** (for deployment)
+- **Kubernetes** (for cloud hosting)
 
 ---
 
