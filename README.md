@@ -1,10 +1,23 @@
-# EcoPort
-![port (1)](https://github.com/user-attachments/assets/40189a0a-52cf-40ed-ae5d-ac906f9d489a)
-![Screenshot 2024-10-12 185829](https://github.com/user-attachments/assets/b2391545-3d1c-44db-bf7c-95fb7162cc23)
-### Overview
-The **Port Emissions and Energy Management System** is a real-time monitoring and AI-driven solution designed to optimize energy consumption and reduce carbon emissions in port operations. By integrating IoT sensors, machine learning models, and an interactive dashboard, this system provides actionable insights into energy usage and recommends strategies to reduce environmental impact while maintaining operational efficiency.
 
-![Screenshot 2024-10-12 185800](https://github.com/user-attachments/assets/24ccfc8f-9580-4404-a6df-876feaafce63)
+<p align="center">
+  <img width="620" src="public/ecoport-logo.png" alt="Ecoport Logo">
+</p>
+
+# EcoPort :Nature:
+
+## About :blue_book:
+Ecoport is a synergistic eco-friendly transformation portal that leverages the power of data, AI, and IoT Systems.
+
+**1. Ecoport :leaf:** <br>
+<video controls src="public/Ecoport Demo _ Dashboard - Google Chrome 2024-10-12 20-52-52 (online-video-cutter.com).mp4" title="<img width="400" src="public/portbot.gif" alt="PortBot GIF">"></video> <br>
+A real-time monitoring and AI-driven solution designed to optimize energy consumption and reduce carbon 
+emissions in port operations. By integrating IoT sensors, machine learning models, and an interactive dashboard, this system provides actionable insights into 
+energy usage and recommends strategies to reduce environmental impact while maintaining operational efficiency. <br>
+
+**2. Smart Energy Monitoring System :bulb:** <br>
+<video controls src="public/Ecoport_ Dashboards - Google Chrome 2024-10-12 20-54-31 (online-video-cutter.com).mp4" title="Title"></video> <br>
+A smart energy management system that uses AI to forecast energy consumption and optimize energy usage in real-time. It has three key features: temperature & humidity monitoring, fuel monitoring, and fleet tracking. <br> 
+
 
 ## Installation
 
@@ -124,30 +137,28 @@ For cloud deployment, use Kubernetes or Google Cloud Run. Follow the instruction
 ## **Tech Stack**
 
 #### **Backend**
-- **Python 3.9+**: Programming language.
-- **FastAPI**: Web framework for building REST APIs.
-- **PostgreSQL**: Relational database.
-- **SQLAlchemy**: ORM for database interactions.
-- **Redis & Celery**: Task queue management for background tasks.
-- **Docker**: Containerization for easy deployment.
-- **Google Kubernetes Engine (GKE)**: Kubernetes for orchestration on Google Cloud.
+- **Python 3.9+**
+- **FastAPI** 
+- **PostgreSQL** 
+- **SQLAlchemy** 
+- **Redis & Celery**
+- **Docker**
+- **Google Kubernetes Engine (GKE)**
 
 #### **Frontend**
-- **React**: JavaScript library for building user interfaces.
-- **Plotly.js**: Data visualization library for charts.
-- **npm & Webpack**: Package management and build tools.
-- **Tailwind CSS**: Utility-first CSS framework for styling.
-- **Docker**: Containerization for frontend deployment.
+- **React**
+- **Plotly.js**
+- **npm & Webpack**
+- **Tailwind CSS**
+- **Docker**
 
 #### **Machine Learning**
-- **TensorFlow/Keras**: For building energy forecasting models.
-- **Scikit-learn, Pandas, NumPy**: For data preprocessing and analysis.
+- **TensorFlow/Keras**
+- **Scikit-learn, Pandas, NumPy**
 
 #### **Cloud & Deployment**
-- **Google Cloud Platform (GCP)**: Hosting and infrastructure.
-- **Google Container Registry (GCR)**: Container image storage.
-- **Google Cloud Build**: CI/CD pipeline for building and deploying containers.
-- **Kubernetes Secrets**: Secure management of environment variables.
+- **Google Cloud Platform (GCP)**
+- **Kubernetes Secrets**
 
 
 
