@@ -9,8 +9,11 @@
 ## About :blue_book:
 Ecoport is a synergistic eco-friendly transformation portal that leverages the power of data, AI, and IoT Systems.
 
-**1. Ecofleet Dashboard :bulb:** <br>
-https://github.com/user-attachments/assets/24bf0a4c-1df7-4929-ae81-5b971a7c3920 <br>
+**1. Ecofleet Dashboard :bulb:** 
+
+https://github.com/user-attachments/assets/a7a6e5a0-606a-4aa0-9d74-6a8bbb012387
+
+
 A real-time monitoring and AI-driven solution designed to optimize energy consumption and reduce carbon 
 emissions in port operations. By integrating IoT sensors, machine learning models, and an interactive dashboard, this system provides actionable insights into 
 energy usage and recommends strategies to reduce environmental impact while maintaining operational efficiency. <br>
