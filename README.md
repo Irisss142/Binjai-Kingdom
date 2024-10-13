@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img width="620" src="public/ecoport-logo.png" alt="Ecoport Logo">
+  <img width="620" src="public/snippet.png" alt="Ecoport Logo">
 </p>
 
 # EcoPort :Nature:
