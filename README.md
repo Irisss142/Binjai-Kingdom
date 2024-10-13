@@ -10,7 +10,8 @@ emissions in port operations. By integrating IoT sensors, machine learning model
 energy usage and recommends strategies to reduce environmental impact while maintaining operational efficiency. <br>
 
 **2. Smart Energy Monitoring System ⚡** 
-<video controls src="public/Ecoport_ Dashboards - Google Chrome 2024-10-12 20-54-31 (online-video-cutter.com).mp4" title="Title"></video> 
+<img width="400" src="" alt="PortBot GIF"> <br>
+
 A smart energy management system that uses AI to forecast energy consumption and optimize energy usage in real-time. It has three key features: temperature & humidity monitoring, fuel monitoring, and fleet tracking. <br> 
 
 
