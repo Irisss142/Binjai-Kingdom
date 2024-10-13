@@ -13,15 +13,15 @@ Ecoport is a synergistic eco-friendly transformation portal that leverages the p
 
 https://github.com/user-attachments/assets/a7a6e5a0-606a-4aa0-9d74-6a8bbb012387
 
-
 A real-time monitoring and AI-driven solution designed to optimize energy consumption and reduce carbon 
 emissions in port operations. By integrating IoT sensors, machine learning models, and an interactive dashboard, this system provides actionable insights into 
 energy usage and recommends strategies to reduce environmental impact while maintaining operational efficiency. <br>
 
 **2. Smart Energy Monitoring System ⚡** 
-<img width="400" src="" alt="PortBot GIF"> <br>
 
-A smart energy management system that uses AI to forecast energy consumption and optimize energy usage in real-time. It has three key features: temperature & humidity monitoring, fuel monitoring, and fleet tracking. <br> 
+https://github.com/user-attachments/assets/ae9570d0-1fd6-4857-badc-3fda9845d8db
+
+A smart energy management system that uses AI to forecast energy consumption and optimize energy usage in real-time. It has three key features: temperature & humidity monitoring, fuel monitoring, and fleet tracking. 
 
 
 ## Installation
